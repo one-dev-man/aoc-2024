@@ -1,0 +1,7 @@
+.vscode
+
+/logs/
+
+/objects/
+
+/resources/**/*.txt
