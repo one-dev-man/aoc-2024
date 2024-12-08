@@ -77,7 +77,7 @@
                     Advent Of
                     <a style="font-size: 0; color: transparent; text-shadow: none; margin-left: -2.5%;">.</a>
                     <i class="cpp-icon"><a>C</a><a style="font-size: 0.5em;">++</a></i>
-                    <i class="cpp-icon" style="position: absolute; z-index: -2; zoom: 105%; filter: brightness(50%); margin-left: -10.625px; margin-top: -0.45px;"><a>C</a><a style="font-size: 0.5em;">++</a></i>
+                    <i class="cpp-icon" style="position: absolute; z-index: -2; zoom: 105%; filter: brightness(50%); margin-left: -10.625px; margin-top: -0.45px; text-shadow: none;"><a>C</a><a style="font-size: 0.5em;">++</a></i>
                 </a>
             </div>
         </div>
