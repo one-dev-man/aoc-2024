@@ -1,4 +1,4 @@
-<svg style="display: inline-block;" width="8.52em" height="2.75em" xmlns="http://www.w3.org/2000/svg">
+<svg style="display: inline-block;" width="8.1em" height="2.41em" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />    
             <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
@@ -18,7 +18,7 @@
                 display: flex;
                 font-family: "Source Code Pro", monospace;
                 align-items: center;
-                top: 29%;
+                top: 27%;
             }
 
             .aoc-title {
@@ -27,9 +27,11 @@
             }
 
             i.cpp-icon {
-                display: inline-block;
+                display: inline-flex;
                 
                 width: 5px;
+
+                align-items: center;
 
                 font-style: normal;
                 color: #fff;
@@ -43,15 +45,21 @@
                 display: inline-block;
                 
                 z-index: -1;
-                top: -70%;
-                margin-left: -4.5%;
+                top: -50%;
+                margin-left: -5%;
 
-                height: 2.75em; /* adjust to control the size  */
+                height: 2.25em; /* adjust to control the size  */
 
                 aspect-ratio: cos(30deg);
                 clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
 
-                background: linear-gradient(-30deg, hsl(209, 100%, 25%) 48%, hsl(209, 100%, 45%) 52%);
+                /* background: linear-gradient(-30deg, hsl(209, 100%, 25%) 48%, hsl(209, 100%, 45%) 52%); */
+                background: repeating-conic-gradient(
+                    from -30deg at 50% 50%,
+                    hsl(209, 100%, 50%) 0deg 90deg,
+                    hsl(209, 100%, 37.5%) 90deg 150deg,
+                    hsl(209, 100%, 25%) 150deg 270deg
+                );
             }
 
             i.cpp-icon.round {
@@ -68,7 +76,8 @@
                 <a class="aoc-title">
                     Advent Of
                     <a style="font-size: 0; color: transparent; text-shadow: none; margin-left: -2.5%;">.</a>
-                    <i class="cpp-icon">C++</i>
+                    <i class="cpp-icon"><a>C</a><a style="font-size: 0.5em;">++</a></i>
+                    <i class="cpp-icon" style="position: absolute; z-index: -2; zoom: 105%; filter: brightness(50%); margin-left: -10.625px; margin-top: -0.45px;"><a>C</a><a style="font-size: 0.5em;">++</a></i>
                 </a>
             </div>
         </div>
